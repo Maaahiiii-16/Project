@@ -1,33 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Bucket List</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>My Bucket List</h1>
-    </header>
-    
-    <main>
-        <section class="bucket-list">
-            <h2>Things I Want to Achieve</h2>
-            <ul>
-                <li class="completed">Visit USA <span class="icon">&#10004;</span></li>
-                <li>To get a Job</li>
-                <li>Go skydiving</li>
-                <li class="completed">Trip with Friends <span class="icon">&#9733;</span></li>
-                <li>Buy a Bike(Java)</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 My Bucket List</p>
-    </footer>
-</body>
-</html>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 3rem;
+}
+.bucket-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 10px 0;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+li .icon {
+    margin-left: 10px;
+    color: gold;
+    font-size: 1.5rem;
+}
+li.completed {
+    color: #4CAF50;
+    text-decoration: line-through;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
 
 
