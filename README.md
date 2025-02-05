@@ -21,7 +21,7 @@ Personal-Bucket-List/
 │── styles.css   # CSS styles
 │── README.md    # Project documentation
 ```
-
+#
 ## Installation & Usage
 1. Clone this repository or download the source code.
 2. Open `index.html` in your preferred web browser.
@@ -38,6 +38,8 @@ Personal-Bucket-List/
   - A clean and modern design.
   - Hover effects for better user interaction.
   - Media queries for responsiveness.
+#### OUTPUT 
+![image](https://github.com/user-attachments/assets/137daa00-a263-4044-bc33-81a507150922)
 
 ## Responsive Design
 - The webpage adapts to different screen sizes using CSS media queries.
